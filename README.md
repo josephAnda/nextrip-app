@@ -35,4 +35,4 @@ jest
 In this application, we make a few assumptions about what a production version may look like, namely:
 * API/services will be accessed via same-orign requests (https://)
 * User input that alters a route or direction will clear/reset any shown stops
-* HTTP requests for a given set of stops will need to be routed to separate page(s) to enable forward/back browser navigation that accurately reflects query history
+* HTTP requests for a given set of stops will need to be routed to separate page(s) to enable forward/back browser navigation that accurately reflects query history.  For example, the `StopsDisplay` component can be treated as a link in which the bus routes and directions are processed before redirecting the user to a seprate page with the output (stops on the route in order)
