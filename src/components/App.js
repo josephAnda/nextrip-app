@@ -21,7 +21,7 @@ export const App = ({name}) => {
         clearAll();
         getRoutes(setRoutes, setError)
     }, []);
-    console.log('routes are', routes, 'directions are', directions, 'stops are', stops);
+
     return !error ? (
       <>
         <h1>

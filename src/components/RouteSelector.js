@@ -4,7 +4,6 @@ import { getDirections } from "../utils/getters";
 
 export const RouteSelector = ({routes, setDirections, clearAll, routeRef}) => {
     
-    const selectRef=useRef();
 
     const updateDirections = () => {
         var select = routeRef.current;
