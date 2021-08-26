@@ -18,6 +18,12 @@ To execute the unit testing suite ...
 npm i && npm run test
 ```
 
+To evaluate code coverage, use the following script:
+
+```sh
+npm run test:coverage
+```
+
 Or to run jest directly . . . 
 
 ```sh
