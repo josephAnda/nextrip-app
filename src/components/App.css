@@ -13,5 +13,10 @@ ul.stops-display {
 
 label, select {
     margin-right: 10px;
+}
+
+div.selection {
+    padding: 10px;
+    border: 1px solid black;
     margin-bottom: 10px;
 }
